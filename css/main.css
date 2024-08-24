@@ -1,0 +1,31 @@
+/* Basic Reset */
+* {
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+}
+
+/* Contact Section Styles */
+.contact-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contact-icons a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+}
+
+.contact-icons img {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.contact-icons span {
+    font-size: 18px;
+}
